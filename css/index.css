@@ -19,6 +19,12 @@ header{
     display: flex;
     
 }
+.menu{
+    display: flex;
+}
+.hamburger{
+    display: none;
+}
 .navigation-select li{
    
     margin: 1em;
@@ -103,7 +109,10 @@ h4{
 .special-font{
     font-family: 'Fugaz One', cursive;
 }
-
+.menu-option{
+    
+    font-size: 50px !important;
+}
 
 @media(max-width : 992px){
     .quality-content{
@@ -114,4 +123,53 @@ h4{
         margin-top: 1em;
         border:none;
     }
+}
+
+
+@media(max-width :768px){
+    .top-banner{
+        width: 80%;
+    }
+}
+@media(max-width :576px){
+    .main-body{
+        height: 120vh;
+        background-color:rgba(179, 99, 101,0.5);
+    }
+    .top-banner{
+        display: block;
+        align-items: center;
+        top: 55%;
+        width: auto;
+    }
+    .product-image{
+        margin: 0em;
+    }
+
+    .quality-content{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .content{
+        text-align: center;
+    }
+    .content h3{
+        color :#dd655f;
+    }
+    .buy-now{
+        border:3px solid #dd655f;
+        font-size: 1.5em;
+        color: #dd655f  ;
+    }
+    .background-img{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        
+    }
+  
+   
 }
