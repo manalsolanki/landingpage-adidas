@@ -1,0 +1,117 @@
+.main-body{
+    position: relative;
+    height: 80vh;
+ 
+}
+header{
+    position:absolute;
+    width: 100vw;
+}
+.top-navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 0.5em 2em;
+    margin: 0em;
+     
+}
+.navigation-select{
+    display: flex;
+    
+}
+.navigation-select li{
+   
+    margin: 1em;
+    font-size:1.5em;
+}
+.material-icons{
+    font-size: 1.5em;
+}
+.logo{
+    height: 70px;
+}
+.top-banner{
+    position: absolute;
+    z-index: 1;
+    width: 720px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.product-image{
+    margin-right: 5em;
+}
+.background-img{
+    width: 100%;
+    height: 85%;
+}
+.content{
+    padding: 1em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-size: 2em;
+}
+h4{
+    line-height: 1.5;
+}
+.buy-now{
+    padding: 1em;
+    border-radius: 5px;
+    border:3px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: 'Fugaz One', cursive;
+}
+.quality-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;  
+}
+.quality-content p{
+    padding: 0.5em 2em;
+}
+.feature {
+    border-right: 5px solid #dd655f;
+    border-radius: 3px;
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.feature-title{
+    color: #b36365;
+    text-align: center;
+}
+.feature-logo{
+    height: 50px;
+    width: 50px;
+   margin:  1em 2em 1em 1em;
+}
+.feature h3{
+    margin: 0em;
+    padding: 0em;
+}
+.last{
+    border: none;
+}
+.special-font{
+    font-family: 'Fugaz One', cursive;
+}
+
+
+@media(max-width : 992px){
+    .quality-content{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .feature{
+        margin-top: 1em;
+        border:none;
+    }
+}
