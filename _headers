@@ -4,3 +4,5 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Content-Security-Policy: script-src 'self'
+  Permissions-Policy: geolocation=(self "https://example.com"), microphone=()
+  Referrer-Policy: no-referrer
