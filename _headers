@@ -1,10 +1,6 @@
-# a path:
-/templates/index.html
-  # headers for that path:
+
+/*
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
-# another path:
-/templates/index2.html
-  # headers for that path:
-  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: script-src 'self'
